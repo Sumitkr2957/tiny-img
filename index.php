@@ -38,9 +38,9 @@
 </head>
 <body>
     <form method="post" enctype="multipart/form-data">
-        <label for="img-field">Chose an image : </label>
+        <label for="img-field">Choose an image : </label>
         <input type="file" accept="image/jpeg" name="img-field" id="img-field" required><br><br>
-        <label for="quality">Enter output quality 10-90 : </label>
+        <label for="quality">Output quality 10-90 : </label>
         <input type="number" name="quality" id="quality" min="10" max="90" required><br><br>
         <input type="submit" name="submit" value="Compress"><br>
     </form><br><br>
